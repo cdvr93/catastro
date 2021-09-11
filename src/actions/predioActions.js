@@ -10,8 +10,8 @@ export function addNewPredioAction(predio){
         dispatch( addPredio());
 
         try {
-            //Insertar en DB
-            const 
+            //Insertar en DB, Aqui mutation
+            // useMutation(CREATE_PREDIO)
             dispatch( addPredioSuc(predio) );
         } catch (error) {
             dispatch( addPredioErr(true));
