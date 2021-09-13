@@ -13,6 +13,7 @@
     "apollo-boost": "^0.4.9",
     "axios": "^0.21.4",
     "bootstrap": "^5.0.0-beta3",
+    "express": "^4.17.1",
     "graphql": "^15.5.3",
     "next": "11.1.2",
     "postgraphile": "^4.12.3",
